@@ -1,0 +1,17 @@
+1. >> to EXECUTE a file in terminal :- 
+                
+                "g++ filename.cpp -o executable_filename.exe"
+
+
+2. >> to run an executed/executable file :-
+                
+                ".\executablefile_name.exe"
+
+
+3. Defining array :-
+                int* arr = new int[n];  // Dynamically allocated array
+                // Use it like a normal array
+                delete[] arr;  // Don't forget to free memory
+
+                vector<int> arr(n);  // Safer and easier to use
+
